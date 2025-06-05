@@ -1,4 +1,6 @@
 import React from 'react'
+import { CiShirt } from "react-icons/ci";
+import { GiRunningShoe,GiClothes} from "react-icons/gi";
 
 interface Props {
   onContact: () => void
@@ -12,14 +14,14 @@ const AboutUs: React.FC = () => {
           <div className="mt-4 col-12 col-lg-10">
             {/* Hero Section */}
             <div className="text-center mb-5">
-              <h1 className="display-5 fw-bold mb-3">BetweenHills</h1>
+              <h1 className="display-5 fw-bold mb-3 titulo ">BetweenHills</h1>
               <p className="lead">Ropa deportiva auténtica de la NBA, NFL, MLB, NHL y más</p>
             </div>
 
             {/* Nuestra Historia */}
             <div className="card mb-4 border-0 shadow-sm">
               <div className="card-body p-4">
-                <h2 className="mb-4 text-center text-success">Nuestra Historia</h2>
+                <h2 className="mb-4 text-center titulo">Nuestra Historia</h2>
                 <div className="row align-items-center">
                   <div className="col-md-6 mb-3 mb-md-0">
                     <img 
@@ -46,12 +48,12 @@ const AboutUs: React.FC = () => {
             {/* Qué Ofrecemos */}
             <div className="card mb-4 border-0 shadow-sm">
               <div className="card-body p-4">
-                <h2 className="mb-4 text-center">Qué Ofrecemos</h2>
+                <h2 className="mb-4 text-center titulo">Qué Ofrecemos</h2>
                 <div className="row">
                   <div className="col-md-4 mb-3">
                     <div className="text-center p-3 h-100">
                       <div className="mb-3">
-                        <i className="bi bi-jersey fs-1 text-danger"></i>
+                        <CiShirt size="2em"/>
                       </div>
                       <h4>Ropa Deportiva Original</h4>
                       <p>
@@ -62,7 +64,7 @@ const AboutUs: React.FC = () => {
                   <div className="col-md-4 mb-3">
                     <div className="text-center p-3 h-100">
                       <div className="mb-3">
-                        <i className="bi bi-star fs-1 text-warning"></i>
+                        <GiRunningShoe size="2em"/>
                       </div>
                       <h4>Próximamente: Zapatillas</h4>
                       <p>
@@ -73,7 +75,7 @@ const AboutUs: React.FC = () => {
                   <div className="col-md-4 mb-3">
                     <div className="text-center p-3 h-100">
                       <div className="mb-3">
-                        <i className="bi bi-arrow-repeat fs-1 text-success"></i>
+                        <GiClothes size="2em"/>
                       </div>
                       <h4>Feria Americana</h4>
                       <p>
@@ -86,9 +88,9 @@ const AboutUs: React.FC = () => {
             </div>
 
             {/* Nuestra Misión */}
-            <div className="card mb-4 border-0 bg-primary text-white">
+            <div className="card mb-4 border-0 bg-white">
               <div className="card-body p-4">
-                <h2 className="mb-4 text-center">Nuestra Misión</h2>
+                <h2 className="mb-4 text-center titulo">Nuestra Misión</h2>
                 <p>
                   Queremos acercar la auténtica cultura deportiva americana a nuestros clientes, ofreciendo productos 
                   de calidad que normalmente serían difíciles de conseguir, a precios justos y con un servicio personalizado.
@@ -100,9 +102,9 @@ const AboutUs: React.FC = () => {
             </div>
 
             {/* CTA */}
-            <div className="text-center mt-5">
+            {/* <div className="text-center mt-5">
               <button 
-                className="btn btn-outline-primary btn-lg px-4 me-2"
+                className="btn btn-outline-primary btn-lg px-4 me-2 "
                 onClick={(e) => {
                   e.stopPropagation()
                   onContact()
@@ -113,7 +115,7 @@ const AboutUs: React.FC = () => {
               <a href="/products" className="btn btn-primary btn-lg px-4">
                 Ver Catálogo
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
