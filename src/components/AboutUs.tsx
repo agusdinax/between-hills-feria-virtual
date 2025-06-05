@@ -4,22 +4,22 @@ interface Props {
   onContact: () => void
 }
 
-const AboutUs: React.FC = () => {
+const AboutUs: React.FC<Props> = ({ onContact }) => {
   return (
     <div className="about-us-container py-4 bg-light">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="mt-4 col-12 col-lg-10">
+          <div className="col-12 col-lg-10">
             {/* Hero Section */}
             <div className="text-center mb-5">
-              <h1 className="display-5 fw-bold mb-3">BetweenHills</h1>
+              <h1 className="display-5 fw-bold mb-3">[Nombre de tu Emprendimiento]</h1>
               <p className="lead">Ropa deportiva auténtica de la NBA, NFL, MLB, NHL y más</p>
             </div>
 
             {/* Nuestra Historia */}
             <div className="card mb-4 border-0 shadow-sm">
               <div className="card-body p-4">
-                <h2 className="mb-4 text-center text-success">Nuestra Historia</h2>
+                <h2 className="mb-4 titulo">Nuestra Historia</h2>
                 <div className="row align-items-center">
                   <div className="col-md-6 mb-3 mb-md-0">
                     <img 
@@ -46,7 +46,7 @@ const AboutUs: React.FC = () => {
             {/* Qué Ofrecemos */}
             <div className="card mb-4 border-0 shadow-sm">
               <div className="card-body p-4">
-                <h2 className="mb-4 text-center">Qué Ofrecemos</h2>
+                <h2 className="mb-">Qué Ofrecemos</h2>
                 <div className="row">
                   <div className="col-md-4 mb-3">
                     <div className="text-center p-3 h-100">
@@ -86,9 +86,9 @@ const AboutUs: React.FC = () => {
             </div>
 
             {/* Nuestra Misión */}
-            <div className="card mb-4 border-0 bg-primary text-white">
+            <div className="card mb-4 border-0 bg-white">
               <div className="card-body p-4">
-                <h2 className="mb-4 text-center">Nuestra Misión</h2>
+                <h2 className="mb-4">Nuestra Misión</h2>
                 <p>
                   Queremos acercar la auténtica cultura deportiva americana a nuestros clientes, ofreciendo productos 
                   de calidad que normalmente serían difíciles de conseguir, a precios justos y con un servicio personalizado.

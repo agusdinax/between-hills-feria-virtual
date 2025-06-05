@@ -42,6 +42,14 @@ body {
   padding-left: 38%;
 }
 
+/* Links nav por defecto visibles */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+
 /* Hamburger oculto por defecto */
 .hamburger {
   display: none;
@@ -71,13 +79,6 @@ body {
 
 .hamburger .bar.open:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
-}
-
-/* Links nav por defecto visibles */
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
 }
 
 /* Responsive: en pantalla chica */
@@ -132,6 +133,9 @@ body {
   color: #1db954; /* verde moderno */
 }
 
+.titulo{
+   color: #1db954; /* verde moderno */
+}
 .btn-whatsapp {
   background: #25d366;
   color: white;
