@@ -13,7 +13,7 @@ const ProductCard: React.FC<Props> = ({ product, onConsult, onOpenModal }) => (
     <div className="product-info">
       <h3>{product.name}</h3>
       <p>{product.description}</p>
-      <div className="price">${product.price.toFixed(2)}</div>
+      <div className="price">${product.price}</div>
       <button
         className="btn-consult"
         onClick={e => {
