@@ -12,7 +12,7 @@ const productsData: Product[] = [
     price: 150.0,
   },
   {
-    id: 1,
+    id: 2,
     name: 'Campera MLB',
     description: 'Campera oficial MLB estilo streetwear',
     category: 'Camperas',
