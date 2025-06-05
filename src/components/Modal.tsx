@@ -153,7 +153,7 @@ const Modal: React.FC<ModalProps> = ({ product, onClose, onConsult }) => {
                   marginBottom: '1rem',
                 }}
               >
-                ${product.price.toFixed(2)}
+                ${product.price}
               </p>
               <button
                 className="btn-consult"
