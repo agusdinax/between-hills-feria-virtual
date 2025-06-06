@@ -1,4 +1,7 @@
 import type { Product } from '../types'
+import levis1 from '../assets/jeans/levis1.jpg'
+import levis2 from '../assets/jeans/levis2.jpg'
+import levis3 from '../assets/jeans/levis2.jpg'
 
 const productsData: Product[] = [
   {
@@ -6,7 +9,7 @@ const productsData: Product[] = [
     name: 'JEAN LEVIS TALLE 34',
     description: 'JEAN LEVIS ORIGINAL TALLE 34',
     category: 'Jean',
-    images: ['/assets/jeans/levis1.jpg', '/assets/jeans/levis2.jpg', '/assets/jeans/levis3.jpg'],
+    images: [levis1, levis2, levis3],
     price: "30.000",
     condition: 'Usado',
   },
