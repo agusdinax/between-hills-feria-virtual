@@ -42,6 +42,11 @@ import corta3 from '../assets/remera/corta3.jpg'
 import corta4 from '../assets/remera/corta4.jpg'
 import corta5 from '../assets/remera/corta5.jpg'
 import corta6 from '../assets/remera/corta6.jpg'
+import usa1 from '../assets/varios/usa1.jpg'
+import newwest from '../assets/varios/newwest.jpg'
+import nba1 from '../assets/nba/nba1.jpg'
+import mlb1 from '../assets/mlb/mlb1.jpg'
+
 
 // CALZAS
 import calzas1 from '../assets/calzas/calzas1.jpg'
@@ -274,6 +279,46 @@ const productsData: Product[] = [
     images: [corta1, corta2, corta3, corta4, corta5, corta6],
     price: "Consultar precio",
     condition: 'Usado',
+  },
+  {
+    id: 21,
+    name: 'Remera USA Talle S',
+    description: 'Remera USA Talle S',
+    category: 'Remera',
+    images: [usa1],
+    price: "15.000",
+    condition: 'Usado',
+    sport:'NFL'
+  },
+  {
+    id: 22,
+    name: 'Remera New West',
+    description: 'Remera New West 86 de futbol americano',
+    category: 'Remera',
+    images: [newwest],
+    price: "7.000",
+    condition: 'Usado',
+    sport:'NFL'
+  },
+  {
+    id: 23,
+    name: 'Remeras NBA',
+    description: 'Remeras NBA TALLE XL MIAME Y GOLDEN STATE CURRY',
+    category: 'Remera ',
+    images: [nba1],
+    price: "7.000 C/U",
+    condition: 'Usado',
+    sport:'NBA'
+  },
+  {
+    id: 24,
+    name: 'Casaca MLB Mariners',
+    description: 'Casaca MLB Mariners Talle XL',
+    category: 'Remera ',
+    images: [mlb1],
+    price: "40.000",
+    condition: 'Usado',
+    sport:'MLB'
   },
 ]
 

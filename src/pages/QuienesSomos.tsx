@@ -134,7 +134,7 @@ const AboutUs: React.FC = () => {
                     href="https://chat.whatsapp.com/FNE4ejLzpgH6hF2v0mXcb2"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-whatsapp d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill text-white"
+                    className="btn-consult"
                     style={{ backgroundColor: '#25D366' }}
                   >
                     <FaWhatsapp size={20} /> Grupo WhatsApp

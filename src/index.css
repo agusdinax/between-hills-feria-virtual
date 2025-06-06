@@ -147,7 +147,7 @@ body {
 }
 
 .btn-whatsapp:hover {
-  background: #1ebd57;
+  background: #c0efd1;
 }
 
 /* Productos */
@@ -198,9 +198,12 @@ body {
 }
 
 .product-card {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
-  border-radius: 8px; /* opcional, para bordes redondeados */
-  background: white; /* asegúrate que el fondo sea blanco para que se vea bien */
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* ocupa todo el alto disponible en el grid */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: white;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
@@ -247,7 +250,7 @@ body {
 }
 .header {
   position: relative;
-  height: 250px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
