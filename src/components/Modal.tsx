@@ -139,9 +139,27 @@ const Modal: React.FC<ModalProps> = ({ product, onClose, onConsult }) => {
           >
             <div>
               <h2 style={{ marginTop: 0, wordBreak: 'break-word' }}>{product.name}</h2>
+               {/* Condición del producto */}
+                    <p
+                      style={{
+                        fontWeight: 'bold',
+                        color: '#888',
+                        marginBottom: '0.5rem',
+                        textTransform: 'capitalize',
+                      }}
+                    >
+                      Condición: {product.condition}
+                    </p>
               <p style={{ color: '#444', lineHeight: 1.5, wordBreak: 'break-word' }}>
                 {product.description}
               </p>
+              {/* Mostrar el sport si está presente */}
+              {product.sport ? (
+                <p className="product-sport"><strong>Sport:</strong> {product.sport}</p>
+              ) : (
+                <p className="product-sport"><strong>Sport:</strong> No especificado</p>
+              )}
+
             </div>
 
             <div>

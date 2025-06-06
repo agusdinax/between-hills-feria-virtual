@@ -5,4 +5,6 @@ export interface Product {
   price: string
   category: string
   images: string[]
+  condition: 'Nuevo' | 'Usado'
+  sport?: string
 }
