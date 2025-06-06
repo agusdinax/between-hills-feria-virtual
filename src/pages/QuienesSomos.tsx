@@ -96,22 +96,6 @@ const AboutUs: React.FC = () => {
                 </p>
               </div>
             </div>
-
-            {/* CTA */}
-            {/* <div className="text-center mt-5">
-              <button 
-                className="btn btn-outline-primary btn-lg px-4 me-2 "
-                onClick={(e) => {
-                  e.stopPropagation()
-                  onContact()
-                }}
-              >
-                Contáctanos
-              </button>
-              <a href="/products" className="btn btn-primary btn-lg px-4">
-                Ver Catálogo
-              </a>
-            </div> */}
           </div>
         </div>
       </div>
