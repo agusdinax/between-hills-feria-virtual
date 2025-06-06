@@ -1,8 +1,11 @@
+import header from '../src/assets/header-background.jpg';
+
+
 const Header: React.FC = () => (
   <header className="header">
     <img
-      src="src\assets\header-background.jpg"
-      alt="Feria virtual de ropa"
+      src={header}
+      alt="Feria virtual de Between Hills"
       className="header-background"
     />
     <div className="header-overlay" />
