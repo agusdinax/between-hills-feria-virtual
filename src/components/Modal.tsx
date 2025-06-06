@@ -140,15 +140,8 @@ const Modal: React.FC<ModalProps> = ({ product, onClose, onConsult }) => {
             <div>
               <h2 style={{ marginTop: 0, wordBreak: 'break-word' }}>{product.name}</h2>
                {/* Condición del producto */}
-                    <p
-                      style={{
-                        fontWeight: 'bold',
-                        color: '#888',
-                        marginBottom: '0.5rem',
-                        textTransform: 'capitalize',
-                      }}
-                    >
-                      Condición: {product.condition}
+                    <p className="product-sport">
+                      <strong>Condición:</strong>{product.condition}
                     </p>
               <p style={{ color: '#444', lineHeight: 1.5, wordBreak: 'break-word' }}>
                 {product.description}

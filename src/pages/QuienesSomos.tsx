@@ -2,10 +2,6 @@ import React from 'react'
 import { CiShirt } from "react-icons/ci";
 import { GiRunningShoe,GiClothes} from "react-icons/gi";
 
-interface Props {
-  onContact: () => void
-}
-
 const AboutUs: React.FC = () => {
   return (
     <div className="about-us-container py-4 bg-light">
