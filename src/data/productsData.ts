@@ -6,7 +6,7 @@ const productsData: Product[] = [
     name: 'JEAN LEVIS TALLE 34',
     description: 'JEAN LEVIS ORIGINAL TALLE 34',
     category: 'Jean',
-    images: ['src/assets/jeans/levis1.jpg', 'src/assets/jeans/levis2.jpg', 'src/assets/jeans/levis3.jpg'],
+    images: ['/assets/jeans/levis1.jpg', '/assets/jeans/levis2.jpg', '/assets/jeans/levis3.jpg'],
     price: "30.000",
     condition: 'Usado',
   },
