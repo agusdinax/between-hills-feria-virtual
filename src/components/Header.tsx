@@ -1,5 +1,4 @@
-import header from '../src/assets/header-background.jpg';
-
+import header from '../assets/header-background.jpg';
 
 const Header: React.FC = () => (
   <header className="header">

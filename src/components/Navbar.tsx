@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import logo from '../assets/logo.png';
 
 const WHATSAPP_GROUP_LINK = 'https://chat.whatsapp.com/FNE4ejLzpgH6hF2v0mXcb2'
 
@@ -14,7 +15,7 @@ const Navbar: React.FC = () => {
       <div className="nav-left">
         {/* Envuelvo la imagen del logo en Link */}
         <Link to="/" onClick={() => setMenuOpen(false)} className="nav-logo-link">
-          <img src="../src/assets/logo.png" alt="Logo" className="nav-logo-img" />
+          <img src={logo} alt="Logo" className="nav-logo-img" />
         </Link>
       </div>
 
