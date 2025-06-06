@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       <div className="nav-left">
         {/* Envuelvo la imagen del logo en Link */}
         <Link to="/" onClick={() => setMenuOpen(false)} className="nav-logo-link">
-          <img src="src/assets/logo.png" alt="Logo" className="nav-logo-img" />
+          <img src="../src/assets/logo.png" alt="Logo" className="nav-logo-img" />
         </Link>
       </div>
 
