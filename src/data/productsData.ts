@@ -512,7 +512,7 @@ const productsData: Product[] = [
   images: [OTTAWA1, OTTAWA2, OTTAWA3, OTTAWA4],
   price: "65.000",
   condition: "Nuevo",
-  sport: "MLB"
+  sport: "NHL"
 },
 {
   id: 38,
