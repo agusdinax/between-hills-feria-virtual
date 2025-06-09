@@ -44,9 +44,70 @@ import corta5 from '../assets/remera/corta5.jpg'
 import corta6 from '../assets/remera/corta6.jpg'
 import usa1 from '../assets/varios/usa1.jpg'
 import newwest from '../assets/varios/newwest.jpg'
+//NBA
 import nba1 from '../assets/nba/nba1.jpg'
-import mlb1 from '../assets/mlb/mlb1.jpg'
+import om1 from '../assets/nba/om1.jpg'
+import om2 from '../assets/nba/om2.jpg'
+import om3 from '../assets/nba/om3.jpg'
+import raptor1 from '../assets/nba/raptor1.jpg'
+import raptor2 from '../assets/nba/raptor2.jpg'
+import raptor3 from '../assets/nba/raptor3.jpg'
+import oms1 from '../assets/nba/oms1.jpg'
+import oms2 from '../assets/nba/oms2.jpg'
+import oms3 from '../assets/nba/oms3.jpg'
+import pistons1 from '../assets/nba/pistons2.jpg'
+import pistons2 from '../assets/nba/pistons2.jpg'
+import pistons3 from '../assets/nba/pistons3.jpg'
+import pistons5 from '../assets/nba/pistons5.jpg'
+import pistons6 from '../assets/nba/pistons6.jpg'
+import denver1 from '../assets/nba/denver1.jpg'
+import denver2 from '../assets/nba/denver2.jpg'
+import denver3 from '../assets/nba/denver3.jpg'
+import denver4 from '../assets/nba/denver4.jpg'
+import spistons1 from '../assets/nba/spistons1.jpg'
+import spistons2 from '../assets/nba/spistons2.jpg'
+import spistons3 from '../assets/nba/spistons3.jpg'
 
+//MLB
+import mlb1 from '../assets/mlb/mlb1.jpg'
+import padres1 from '../assets/mlb/padres1.jpg'
+import padres2 from '../assets/mlb/padres2.jpg'
+import padres3 from '../assets/mlb/padres3.jpg'
+import padres4 from '../assets/mlb/padres4.jpg'
+import padres5 from '../assets/mlb/padres5.jpg'
+import bj1 from '../assets/mlb/bj1.jpg'
+import bj2 from '../assets/mlb/bj2.jpg'
+import bj3 from '../assets/mlb/bj3.jpg'
+import bj4 from '../assets/mlb/bj4.jpg'
+import bj5 from '../assets/mlb/bj5.jpg'
+import ny1 from '../assets/mlb/ny1.jpg'
+import ny2 from '../assets/mlb/ny2.jpg'
+import ny3 from '../assets/mlb/ny3.jpg'
+import ny4 from '../assets/mlb/ny4.jpg'
+//NFL
+import patriots1 from '../assets/nfl/patriots1.jpg'
+import patriots2 from '../assets/nfl/patriots2.jpg'
+import patriots3 from '../assets/nfl/patriots3.jpg'
+import patriots4 from '../assets/nfl/patriots4.jpg'
+import patriots5 from '../assets/nfl/patriots5.jpg'
+import dolphins1 from '../assets/nfl/dolphins1.jpg'
+import dolphins2 from '../assets/nfl/dolphins2.jpg'
+import dolphins3 from '../assets/nfl/dolphins3.jpg'
+import dolphins4 from '../assets/nfl/dolphins4.jpg'
+import dolphins5 from '../assets/nfl/dolphins5.jpg'
+
+//NHL 
+import redskins1 from '../assets/nhl/redskins1.jpg'
+import redskins2 from '../assets/nhl/redskins2.jpg'
+import redskins3 from '../assets/nhl/redskins3.jpg'
+import redskins4 from '../assets/nhl/redskins4.jpg'
+import OTTAWA1 from '../assets/nhl/OTTAWA1.jpg'
+import OTTAWA2 from '../assets/nhl/OTTAWA2.jpg'
+import OTTAWA3 from '../assets/nhl/OTTAWA3.jpg'
+import OTTAWA4 from '../assets/nhl/OTTAWA4.jpg'
+import NHL1 from '../assets/nhl/NHL1.jpg'
+import NHL2 from '../assets/nhl/NHL2.jpg'
+import NHL3 from '../assets/nhl/NHL3.jpg'
 
 // CALZAS
 import calzas1 from '../assets/calzas/calzas1.jpg'
@@ -98,6 +159,9 @@ import cartera8 from '../assets/cartera/cartera8.jpg'
 
 // VARIOS
 import pijama from '../assets/varios/pijama.jpg'
+import hornets1 from '../assets/varios/hornets1.jpg'
+import hornets2 from '../assets/varios/hornets2.jpg'
+import hornets3 from '../assets/varios/hornets3.jpg'
 
 const productsData: Product[] = [
   {
@@ -304,7 +368,7 @@ const productsData: Product[] = [
     id: 23,
     name: 'Remeras NBA',
     description: 'Remeras NBA TALLE XL MIAME Y GOLDEN STATE CURRY',
-    category: 'Remera ',
+    category: 'Remera',
     images: [nba1],
     price: "7.000 C/U",
     condition: 'Usado',
@@ -314,12 +378,162 @@ const productsData: Product[] = [
     id: 24,
     name: 'Casaca MLB Mariners',
     description: 'Casaca MLB Mariners Talle XL',
-    category: 'Remera ',
+    category: 'Remera',
     images: [mlb1],
     price: "40.000",
     condition: 'Usado',
     sport:'MLB'
   },
+  {
+  id: 25,
+  name: "Casaca MLB Padres Machado",
+  description: "Talle L",
+  category: "Remera",
+  images: [padres1, padres5, padres2, padres3, padres4],
+  price: "65.000",
+  condition: "Nuevo",
+  sport: "MLB"
+},
+{
+  id: 26,
+  name: "Casaca MLB Blue Jays Hernandez",
+  description: "Talle XL",
+  category: "Remera",
+  images: [bj2, bj1, bj3, bj4, bj5],
+  price: "65.000",
+  condition: "Nuevo",
+  sport: "MLB"
+},
+{
+  id: 27,
+  name: "Gorrito Hornets NBA",
+  description: "Talle Único",
+  category: "Gorras",
+  images: [hornets1, hornets2, hornets3],
+  price: "25.000",
+  condition: "Nuevo",
+  sport: "NBA"
+},
+{
+  id: 28,
+  name: "Musculosa NBA Orlando Magic",
+  description: "O'NEAL Talle L",
+  category: "Remera",
+  images: [om1, om2, om3],
+  price: "52.000",
+  condition: "Nuevo",
+  sport: "NBA"
+},
+{
+  id: 29,
+  name: "Casaca NFL Patriots BRADY",
+  description: "BRADY 12 TALLE M",
+  category: "Remera",
+  images: [patriots1, patriots3, patriots5, patriots4, patriots2],
+  price: "62.000",
+  condition: "Nuevo",
+  sport: "NFL"
+},
+{
+  id: 30,
+  name: "Short NBA Raptors",
+  description: "Talle M",
+  category: "Short",
+  images: [raptor1, raptor2, raptor3],
+  price: "55.000",
+  condition: "Nuevo",
+  sport: "NBA"
+},
+{
+  id: 31,
+  name: "Short NBA Orlando Magic",
+  description: "Talle L",
+  category: "Short",
+  images: [oms1, oms2, oms3],
+  price: "55.000",
+  condition: "Nuevo",
+  sport: "NBA"
+},
+{
+  id: 32,
+  name: "Casaca NHL Chicago Blackhawks Griswold",
+  description: "Talle 48 (M)",
+  category: "Remera",
+  images: [redskins1, redskins2, redskins3, redskins4],
+  price: "65.000",
+  condition: "Nuevo",
+  sport: "NHL"
+},
+{
+  id: 33,
+  name: "Musculosa NBA Pistons Hill",
+  description: "Talle 40 (M)",
+  category: "Remera",
+  images: [pistons1, pistons2, pistons3, pistons5, pistons6],
+  price: "52.000",
+  condition: "Nuevo",
+  sport: "NBA"
+},
+{
+  id: 34,
+  name: "Musculosa NBA Denver",
+  description: "Talle 52 (XL)",
+  category: "Remera",
+  images: [denver1, denver2, denver3, denver4],
+  price: "52.000",
+  condition: "Nuevo",
+  sport: "NBA"
+},
+{
+  id: 35,
+  name: "Casaca NFL Dolphins Marino",
+  description: "Miami Dolphins MARINO 13 Talle XL",
+  category: "Remera",
+  images: [dolphins1, dolphins2, dolphins3, dolphins4, dolphins5],
+  price: "62.000",
+  condition: "Nuevo",
+  sport: "NFL"
+},
+{
+  id: 36,
+  name: "Casaca MLB Yankees",
+  description: "New York Yankees Judge Talle M",
+  category: "Remera",
+  images: [ny1, ny2, ny3, ny4],
+  price: "62.000",
+  condition: "Nuevo",
+  sport: "MLB"
+},
+{
+  id: 37,
+  name: "Casaca NHL Ottawa Senators",
+  description: "Talle 54 (XL)",
+  category: "Remera",
+  images: [OTTAWA1, OTTAWA2, OTTAWA3, OTTAWA4],
+  price: "65.000",
+  condition: "Nuevo",
+  sport: "MLB"
+},
+{
+  id: 38,
+  name: "Short NBA Pistons",
+  description: "Talle (XL)",
+  category: "Short",
+  images: [spistons1, spistons3, spistons2],
+  price: "55.000",
+  condition: "Nuevo",
+  sport: "NBA"
+},
+{
+  id: 39,
+  name: "Casaca NHL Panthers",
+  description: "Florida Panthers Talle L",
+  category: "Remera",
+  images: [NHL1, NHL2, NHL3],
+  price: "65.000",
+  condition: "Nuevo",
+  sport: "NHL"
+}
 ]
 
 export default productsData
