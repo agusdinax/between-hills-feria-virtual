@@ -163,6 +163,13 @@ import hornets1 from '../assets/varios/hornets1.jpg'
 import hornets2 from '../assets/varios/hornets2.jpg'
 import hornets3 from '../assets/varios/hornets3.jpg'
 
+//MOTORSPORT 
+import HAM1 from '../assets/motorsport/HAM1.jpg'
+import HAM2 from '../assets/motorsport/HAM2.jpg'
+import TOY1 from '../assets/motorsport/TOY1.jpg'
+import TOY2 from '../assets/motorsport/TOY2.jpg'
+import TOY3 from '../assets/motorsport/TOY3.jpg'
+
 const productsData: Product[] = [
   {
     id: 1,
@@ -533,6 +540,26 @@ const productsData: Product[] = [
   price: "65.000",
   condition: "Nuevo",
   sport: "NHL"
+},
+{
+  id: 40,
+  name: "CAMPERA NASCAR",
+  description: "Talle XXL Único",
+  category: "Campera",
+  images: [HAM1, HAM2],
+  price: "140.000",
+  condition: "Nuevo",
+  sport: "Motorsport"
+},
+{
+  id: 41,
+  name: "CAMPERA TOYOTA",
+  description: "Talle XXL Único",
+  category: "Campera",
+  images: [TOY1, TOY2, TOY3],
+  price: "140.000",
+  condition: "Nuevo",
+  sport: "Motorsport"
 }
 ]
 
