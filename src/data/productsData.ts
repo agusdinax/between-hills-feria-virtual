@@ -412,16 +412,6 @@ const productsData: Product[] = [
   sport: "MLB"
 },
 {
-  id: 27,
-  name: "Gorrito Hornets NBA",
-  description: "Talle Único",
-  category: "Gorras",
-  images: [hornets1, hornets2, hornets3],
-  price: "25.000",
-  condition: "Nuevo",
-  sport: "NBA"
-},
-{
   id: 28,
   name: "Musculosa NBA Orlando Magic",
   description: "O'NEAL Talle L",
